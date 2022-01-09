@@ -1,0 +1,132 @@
+.overviewbar{
+    float: left;
+    width:357px;
+    height:1024px;
+    background-color: rgb(57,36,113);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.headertext h1{
+    font-family:'Poppins', sans-serif;
+    color:white;
+    font-size: 36px;
+    margin-top: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+.subheadertext h3{
+    font-family:'Open Sans', sans-serif;
+    color:white;
+    font-size: 17;
+    font-weight:normal;
+    text-align: center;
+}
+.heroimage{
+    background-image: url(../images/headshot.png);
+    width:283px;
+    height:283px;
+    border-radius: 50%;
+}
+
+.blurb p{
+    font-size:18;
+    font-family:'Open Sans', sans-serif;
+    font-weight:normal;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    width:293px;
+}
+
+.socialicons{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    padding:5px;
+    width: 180px;
+}
+.facebook{
+    background-image: url(../images/facebooklogo.png);
+    height:48px;
+    width:48px;
+}
+.instagram{
+    background-image: url(../images/instagramlogo.png);
+    height:48px;
+    width:48px;
+}
+.linkedin{
+    background-image: url(../images/linkedinlogo.png);
+    height:48px;
+    width:48px;
+}
+.overviewbuttons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width:205px;
+    height:110px
+}
+.overviewbuttons button{
+    width: 202px;
+    height: 47px;
+    background-color: rgb(222,188,225);
+    border-color: rgb(161,118,198);
+    border-width: 2px;
+    border-radius: 10px;
+}
+.worksection{
+    object-position: 357px 0px;
+    height:100%;
+    background-image:linear-gradient(rgb(245,206,225),rgb(123,91,178));
+    padding-top: 46px;
+    padding-left: 357px;
+}
+.navbar{
+    width:1036px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbutton{
+    background-color: rgb(57,36,113);
+    width: 333px;
+    height:56px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.navbutton h2{
+    color:white;
+    font-size:18px;
+    font-family:'Open Sans', sans-serif;
+}
+.designworkexamples{
+    display:flex;
+    flex-wrap: wrap;
+}
+.examplecard{
+    width: 333px;
+    height: 355px;
+    background-color: rgb(196,196,196);
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.examplecard h4{
+    font-size:18;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.examplecard p{
+    font-size:18;
+    font-family:'Open Sans', sans-serif;
+    font-weight:lighter;
+}
